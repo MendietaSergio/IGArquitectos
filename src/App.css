@@ -316,6 +316,18 @@ textarea{
   background: rgba(37,37,33, 0.26);
 }
 
+.errors-container{
+  text-align: center;
+  margin: 50px;
+  /* text-decoration: ; */
+}
+.errors-container li{
+  text-decoration: underline;
+  color: red;
+  list-style: none;
+
+}
+
 /* RESPONSIVE */
 @media  (max-width: 900px){
   .card{
