@@ -89,7 +89,7 @@ border-color: transparent transparent #fff transparent;
   color: rgb(24,16,16);
 }
 
-.about-me .boton{
+.boton{
   display: inline-block;
   padding: 6px;
   width: 128px;
@@ -97,6 +97,7 @@ border-color: transparent transparent #fff transparent;
   border: 1px solid rgba(24,16,16, .7);
   color: rgb(24,16,16);
   font-size: 16px;
+  cursor: pointer;
   text-align: center;
   border-radius: 16px;
   margin-top: 24px;
