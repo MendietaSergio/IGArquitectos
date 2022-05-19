@@ -10,7 +10,7 @@ export const OurTeam = () => {
         <div className="cards">
           {team.map(person => (
             <div className="card" key={person.id}>
-              <img src='arqu1.png' alt="" />
+              <img src={person.img} alt="" />
               <h4>{person.name}</h4>
               <p>{person.info}</p>
             </div>
